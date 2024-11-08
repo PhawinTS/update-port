@@ -190,11 +190,21 @@
       flex-direction: column; /* Stack the images vertically on smaller screens */
     }
   }
+
+  .hover-zoom {
+    transition: transform 0.3s ease; /* เพิ่มเอฟเฟกต์เปลี่ยนแปลง */
+  }
+
+  .hover-zoom:hover {
+    transform: scale(1.1); /* ขยายภาพเมื่อ Hover */
+  }
+
   
   
   .skills-list {
     list-style: none;
     text-align: center;
+    font-size: 1.2rem;
   }
   
   .skills-list li {
